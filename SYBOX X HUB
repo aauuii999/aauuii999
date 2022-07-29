@@ -1,0 +1,291 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Sybox x HUB", "DarkTheme")
+
+local Tab = Window:NewTab("main")
+
+local Section = Tab:NewSection("auto fram level")
+
+Section:NewButton("Select Wearpon", "start", function()
+
+    print("Clicked")
+
+end)local oldList = {
+
+  "dark blade",
+
+  "kabucha",
+
+  "combat",
+
+  "hat",
+
+  }
+
+local newList = {
+
+  "combat",
+
+  "combat"
+
+}
+
+local dropdown = Section:NewDropdown("wearpon","Info", oldList, function()
+
+end)
+
+Section:NewButton("Update wearpon", "Refreshes Dropdown", function()
+
+  dropdown:Refresh(newList)
+
+end)
+
+local Tab = Window:NewTab("combat")
+
+local Section = Tab:NewSection("combat")
+
+Section:NewButton("player", "start", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("tween to player", "start", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("fast attack to player", "start", function()
+
+    print("Clicked")
+
+end)Section:NewButton("aImbot skill", "start", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("aimbot gun", "start", function()
+
+    print("Clicked")
+
+end)Section:NewButton("auto warp to player", "start", function()
+
+    print("Clicked")
+
+end)
+
+local Tab = Window:NewTab("dungeon")
+
+local Section = Tab:NewSection("dungeon")
+
+Section:NewButton("chip", "start", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto buy chip", "start", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("auto start dungeon", "start", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto kill kara", "start", function()
+
+    print("Clicked")
+
+end)
+
+local Section = Tab:NewSection("law raid")
+
+Section:NewButton("Auto buy chip law raid", "strat", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto start law raid", "strat", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto kill law", "start", function()
+
+    print("Clicked")
+
+end)
+
+local Tab = Window:NewTab("EPS")
+
+Section:NewButton("EPS PLAYER", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)Section:NewButton("EPS CHEATS", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)Section:NewButton("EPS FRUIT", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)Section:NewButton("EPS flower", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)Section:NewButton("EPS ISLAND", "ButtonInfo", function()
+
+    print("Clicked")
+
+    
+
+end)local Tab = Window:NewTab("DAVIL FRUIT")
+
+local Section = Tab:NewSection("fruit snipper")
+
+Section:NewButton("fruit snipper", "bomb", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto random davil fruit", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto buy fruit snipper", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto grab fruit", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Auto stor fruit", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+local Tab = Window:NewTab("misc")
+
+local Section = Tab:NewSection("Inventory-title")
+
+Section:NewButton("Inventory", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Inventory fruit", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("fruit shop", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("color haki", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("titel", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Stat haki", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+local Section = Tab:NewSection("Server-team")
+
+Section:NewButton("rejoin server", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("join team marrin", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("rejoin team pirate", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("server hop", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+local Section = Tab:NewSection("effect")
+
+Section:NewButton("infinity energy", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Aticyty", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("walk no water", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("no clip", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("fly", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("hop", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewTextBox("beli", "TextboxInfo", function(txt)
+
+	print(txt)end)
